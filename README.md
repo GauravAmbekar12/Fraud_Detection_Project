@@ -53,8 +53,3 @@ A full-stack enterprise-grade application designed to detect fraudulent transact
 
 ---
 
-## 🚦 Getting Started
-
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/GauravAmbekar12/Fraud_Detection_Project.git](https://github.com/GauravAmbekar12/Fraud_Detection_Project.git)
