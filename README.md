@@ -19,7 +19,6 @@ A full-stack enterprise-grade application designed to detect fraudulent transact
 * **Secure Authentication:** User login and registration system with encrypted passwords and JWT-protected routes.
 * **Real-Time Detection:** Immediate fraud scoring as soon as a transaction is submitted.
 * **Batch Processing:** Ability to upload and analyze large datasets of historical transactions for fraud patterns.
-* **Interactive Dashboard:** A clean Angular UI to monitor system health and fraud statistics.
 * **Scalable Backend:** Decoupled architecture where .NET handles the heavy business logic while FastAPI focuses on ML inference.
 
 ---
