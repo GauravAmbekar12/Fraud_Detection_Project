@@ -1,0 +1,111 @@
+/* ================== GLOBAL LAYOUT ================== */
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.section-subtitle {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+/* ================== FORM ELEMENTS ================== */
+input[type="text"],
+input[type="file"] {
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.65rem 1.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ================== PANELS ================== */
+.panel {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+/* ================== TABLE ================== */
+.table-wrapper {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+tbody td {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+/* ================== STATUS ================== */
+.status-fraud {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.status-safe {
+  color: #15803d;
+  font-weight: 600;
+}
+
+.risk {
+  font-weight: 700;
+}
+
+/* ================== META TEXT ================== */
+.meta {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* ================== HEADER ================== */
+.page-header {
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.page-header p {
+  color: #6b7280;
+}

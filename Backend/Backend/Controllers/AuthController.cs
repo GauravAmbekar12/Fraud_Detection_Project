@@ -23,7 +23,7 @@ public class AuthController : ControllerBase
     public IActionResult Register(RegisterDto dto)
     {
         if (_context.Users.Any(u => u.Username == dto.Username))
-            return BadRequest("Username already exists");
+            return BadRequest(new { message = "Username already exists" });
 
         var user = new User
         {
@@ -35,8 +35,9 @@ public class AuthController : ControllerBase
         _context.Users.Add(user);
         _context.SaveChanges();
 
-        return Ok("User registered successfully");
+        return Ok(new { message = "User registered successfully" });
     }
+
 
     [HttpPost("login")]
     public IActionResult Login(LoginDto dto)

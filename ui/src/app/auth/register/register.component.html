@@ -1,0 +1,49 @@
+<div class="register-container">
+  <h2>Create an Account</h2>
+  
+  <form (ngSubmit)="register()" #registerForm="ngForm">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input 
+        type="text" 
+        id="username" 
+        name="username" 
+        [(ngModel)]="data.username" 
+        required 
+        #user="ngModel">
+      <small *ngIf="user.invalid && user.touched" style="color: red;">Username is required</small>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        [(ngModel)]="data.email" 
+        required 
+        email
+        #emailRef="ngModel">
+      <small *ngIf="emailRef.invalid && emailRef.touched" style="color: red;">Enter a valid email</small>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input 
+        type="password" 
+        id="password" 
+        name="password" 
+        [(ngModel)]="data.password" 
+        required 
+        minlength="6"
+        #pass="ngModel">
+      <small *ngIf="pass.invalid && pass.touched" style="color: red;">Password must be at least 6 characters</small>
+    </div>
+
+    <button type="submit" [disabled]="!registerForm.form.valid">Register</button>
+  </form>
+
+  <p>Already have an account? 
+    <a href="javascript:void(0)" (click)="goToLogin()">Login here</a>
+  </p>
+</div>

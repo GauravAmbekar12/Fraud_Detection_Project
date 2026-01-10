@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "E:\\Project\\Fraud_Detection_Project\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\controllers\\fraudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\fraudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\controllers\\fraudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\fraudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|e:\\project\\fraud_detection_project\\backend\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24C1EEB-9BD6-40C6-94C0-ECDFCFF717FF}|Backend\\Backend.csproj|solutionrelative:backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Models\\User.cs",
               "RelativeDocumentMoniker": "Backend\\Models\\User.cs",
@@ -58,50 +58,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FraudController.cs",
               "DocumentMoniker": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Controllers\\FraudController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\FraudController.cs",
               "ToolTip": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Controllers\\FraudController.cs",
               "RelativeToolTip": "Backend\\Controllers\\FraudController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-21T10:04:52.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\AuthController.cs",
               "ToolTip": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Backend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T10:01:34.13Z"
+              "WhenOpened": "2025-12-21T10:01:34.13Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
               "ToolTip": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T09:36:10.895Z"
+              "WhenOpened": "2025-12-21T09:36:10.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
               "ToolTip": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-21T09:35:04.424Z"
             },
@@ -113,21 +115,23 @@
               "RelativeDocumentMoniker": "Backend\\DTOs\\LoginDto.cs",
               "ToolTip": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\DTOs\\LoginDto.cs",
               "RelativeToolTip": "Backend\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T09:34:36.979Z"
+              "WhenOpened": "2025-12-21T09:34:36.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Backend\\DTOs\\RegisterDto.cs",
               "ToolTip": "E:\\Project\\Fraud_Detection_Project\\Backend\\Backend\\DTOs\\RegisterDto.cs",
               "RelativeToolTip": "Backend\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T09:33:49.498Z"
+              "WhenOpened": "2025-12-21T09:33:49.498Z",
+              "EditorCaption": ""
             }
           ]
         }

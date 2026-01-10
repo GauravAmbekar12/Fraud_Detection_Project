@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 [ApiController]
 [Route("api/fraud")]
@@ -21,12 +22,15 @@ public class FraudController : ControllerBase
 
         var response = await client.PostAsJsonAsync(
             "/predict",
-            new { features });
+            new { features }
+        );
 
         if (!response.IsSuccessStatusCode)
             return StatusCode((int)response.StatusCode, "FastAPI error");
 
-        var result = await response.Content.ReadAsStringAsync();
+        // ✅ READ REAL JSON FROM FASTAPI
+        var result = await response.Content.ReadFromJsonAsync<object>();
+
         return Ok(result);
     }
 
@@ -44,7 +48,9 @@ public class FraudController : ControllerBase
         if (!response.IsSuccessStatusCode)
             return StatusCode((int)response.StatusCode, "FastAPI error");
 
-        var result = await response.Content.ReadAsStringAsync();
+        // ✅ READ REAL JSON FROM FASTAPI
+        var result = await response.Content.ReadFromJsonAsync<object>();
+
         return Ok(result);
     }
 }

@@ -1,0 +1,97 @@
+<app-navbar></app-navbar>
+
+<div class="container-fluid bg-light min-vh-100 py-5">
+  <div class="page-wrapper">
+
+    <!-- HEADER -->
+    <div class="page-header">
+      <h1>Fraud Detection Dashboard</h1>
+    </div>
+
+    <!-- SINGLE TRANSACTION -->
+    <div class="panel section">
+      <div class="section-title">Single Transaction Analysis</div>
+      <div class="section-subtitle">
+        Paste comma-separated numerical features to evaluate one transaction
+      </div>
+
+      <input
+        type="text"
+        placeholder="e.g. 0.25, -1.2, 3.44, 0.89"
+        [(ngModel)]="featureInput">
+
+      <button
+        (click)="predictSingle()"
+        [disabled]="singleLoading || !featureInput">
+        Analyze Transaction
+      </button>
+    </div>
+
+    <!-- CSV UPLOAD -->
+    <div class="panel section">
+      <div class="section-title">Bulk CSV Processing</div>
+      <div class="section-subtitle">
+        Upload a CSV file containing multiple transactions
+      </div>
+
+      <input
+        type="file"
+        accept=".csv"
+        (change)="onFileChange($event)">
+
+      <button
+        (click)="predictCsv()"
+        [disabled]="csvLoading || !selectedFile">
+        Run Batch Analysis
+      </button>
+    </div>
+
+    <!-- RESULTS -->
+    @if (csvResult) {
+      <div class="panel section">
+        <div class="section-title">Batch Analysis Report</div>
+        <div class="section-subtitle">
+          Total: {{ csvResult.total_records }} |
+          Flagged: {{ csvResult.fraud_count }}
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <!-- <th>Transaction</th> -->
+                <th>Amount</th>
+                <th>Status</th>
+                <th>Risk</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              @for (r of csvResult.results; track $index) {
+                <tr>
+
+
+                  <td>
+                    {{ r.Amount | currency }}
+                  </td>
+
+                  <td>
+                    <span
+                      [ngClass]="r.fraud ? 'status-fraud' : 'status-safe'">
+                      {{ r.fraud ? 'Fraud ' : 'Safe' }}
+                    </span>
+                  </td>
+
+                  <td class="risk">
+                    {{ r.fraud_probability | percent:'1.1-1' }}
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    }
+
+  </div>
+</div>
