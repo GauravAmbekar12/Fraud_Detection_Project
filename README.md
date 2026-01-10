@@ -8,8 +8,8 @@ A full-stack enterprise-grade application designed to detect fraudulent transact
 -   **API Layer:** **FastAPI** (Python) serving the model for low-latency real-time predictions.
 -   **Backend:** **.NET Core Web API** managing user authentication, registration, and business logic.
 -   **Security:** **JWT (JSON Web Tokens)** for secure user sessions and API authorization.
--   **Database:** Stores user profiles and transaction history (SQL Server).
--   **Frontend:** **Angular** dashboard for visualizing fraud alerts and managing user data.
+-   **Database:** Stores user profiles (SQL Server).
+-   **Frontend:** **Angular** dashboard for visualizing fraud alerts.
 -   **Processing:** Supports both **Real-Time Inference** and **Batch Processing** of transaction logs.
 
 ---
@@ -38,7 +38,7 @@ A full-stack enterprise-grade application designed to detect fraudulent transact
 
 ### Frontend
 * Angular
-
+* Components 
 ---
 
 ## 📁 Project Structure
