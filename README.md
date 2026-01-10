@@ -39,8 +39,6 @@ A full-stack enterprise-grade application designed to detect fraudulent transact
 
 ### Frontend
 * Angular
-* RxJS & Signals
-* Tailwind CSS / Angular Material
 
 ---
 
