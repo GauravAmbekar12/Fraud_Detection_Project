@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="System" src="https://github.com/user-attachments/assets/a7389a36-25e4-4965-a921-a084b768572c" />
+
 # Real-Time Credit Card Fraud Detection System
 
 A full-stack enterprise-grade application designed to detect fraudulent transactions in real-time. This project integrates a Machine Learning pipeline with a robust .NET backend and a modern Angular frontend.
@@ -49,6 +51,5 @@ A full-stack enterprise-grade application designed to detect fraudulent transact
 * `/.github`: CI/CD workflows and automation.
 
 ---
-<img width="1920" height="1080" alt="HLD2 O" src="https://github.com/user-attachments/assets/815548bb-ddf9-422a-a0b3-ea3ab5799b44" />
 
 
