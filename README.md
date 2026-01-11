@@ -1,3 +1,5 @@
+![Uploading HLD2.O.png…]()
+
 # Real-Time Credit Card Fraud Detection System
 
 A full-stack enterprise-grade application designed to detect fraudulent transactions in real-time. This project integrates a Machine Learning pipeline with a robust .NET backend and a modern Angular frontend.
